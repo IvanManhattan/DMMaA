@@ -15,14 +15,18 @@ public class Main {
 }
 
 class ObjectClass {
-    int x;
-    int y;
-    int color;
+    private int x;
+    private int y;
+    private int color;
+    private boolean isCenter;
 
-    public ObjectClass(int x, int y, int color) {
+
+
+    public ObjectClass(int x, int y, int color, boolean isCenter) {
         this.x = x;
         this.y = y;
         this.color = color;
+        this.isCenter = isCenter;
     }
 
     public int getX() {
@@ -48,4 +52,8 @@ class ObjectClass {
     public void setColor(int color) {
         this.color = color;
     }
+
+    public boolean isCenter() { return isCenter; }
+
+    public void setCenter(boolean center) { isCenter = center; }
 }
