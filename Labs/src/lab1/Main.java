@@ -14,11 +14,45 @@ public class Main {
     }
 }
 
+class AvDistance{
+    private int x = 0;
+    private int y = 0;
+    private float avX = 0;
+    private float avY = 0;
+
+    private int count = 0;
+    public void clearDis(){
+        this.x=0;
+        this.y=0;
+        this.count=0;
+    }
+    public void addEl(ObjectClass o){
+        this.x+=o.getX();
+        this.y+=o.getY();
+        this.count++;
+    }
+    public void calcAv(){
+        this.avX=(float) (this.x/this.count);
+        this.avY=(float) (this.y/this.count);
+    }
+    public float getAvX(){
+        return avX;
+    }
+    public float getAvY(){
+        return avY;
+    }
+    public int getCount(){
+        return this.count;
+    }
+
+}
 class ObjectClass {
     private int x;
     private int y;
     private int color;
-    private boolean isCenter;
+    private int beforeX=0;
+    private int beforeY=0;
+
 
 
 
@@ -26,7 +60,10 @@ class ObjectClass {
         this.x = x;
         this.y = y;
         this.color = color;
-        this.isCenter = isCenter;
+        this.beforeX=0;
+        this.beforeY=0;
+
+
     }
 
     public int getX() {
@@ -53,7 +90,6 @@ class ObjectClass {
         this.color = color;
     }
 
-    public boolean isCenter() { return isCenter; }
 
-    public void setCenter(boolean center) { isCenter = center; }
+
 }
