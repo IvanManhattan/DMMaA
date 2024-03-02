@@ -67,17 +67,25 @@ public class GUIClass extends JFrame {
                         else if (elements.get(i).getColor() == 10)
                             g.setColor(new Color(30, 143, 151));
                         else if (elements.get(i).getColor() == 11)
-                            g.setColor(new Color(0, 255, 34));
+                            g.setColor(new Color(111, 114, 105));
                         else if (elements.get(i).getColor() == 12)
-                            g.setColor(new Color(239, 0, 255));
+                            g.setColor(new Color(29, 65, 25));
                         else if (elements.get(i).getColor() == 13)
                             g.setColor(new Color(39, 27, 117));
                         else if (elements.get(i).getColor() == 14)
                             g.setColor(new Color(255, 191, 65));
                         else if (elements.get(i).getColor() == 15)
-                            g.setColor(new Color(176, 100, 0));
+                            g.setColor(new Color(0, 0, 0));
                         else if (elements.get(i).getColor() == 16)
                             g.setColor(new Color(33, 208, 220));
+                        else if (elements.get(i).getColor() == 17)
+                            g.setColor(new Color(210, 15, 220));
+                        else if (elements.get(i).getColor() == 18)
+                            g.setColor(new Color(124, 15, 249));
+                        else if (elements.get(i).getColor() == 19)
+                            g.setColor(new Color(15, 249, 171));
+                        else if (elements.get(i).getColor() == 20)
+                            g.setColor(new Color(171, 249, 15));
 
                         g.fillOval(elements.get(i).getX(), elements.get(i).getY(), pointWidth, pointHeight);
                     }
@@ -110,17 +118,25 @@ public class GUIClass extends JFrame {
                             else if (mCentres.get(i).getColor() == 10)
                                 g.setColor(new Color(30, 143, 151));
                             else if (mCentres.get(i).getColor() == 11)
-                                g.setColor(new Color(0, 255, 34));
+                                g.setColor(new Color(111, 114, 105));
                             else if (mCentres.get(i).getColor() == 12)
-                                g.setColor(new Color(239, 0, 255));
+                                g.setColor(new Color(29, 65, 25));
                             else if (mCentres.get(i).getColor() == 13)
                                 g.setColor(new Color(39, 27, 117));
                             else if (mCentres.get(i).getColor() == 14)
                                 g.setColor(new Color(255, 191, 65));
                             else if (mCentres.get(i).getColor() == 15)
-                                g.setColor(new Color(176, 100, 0));
+                                g.setColor(new Color(0, 0, 0));
                             else if (mCentres.get(i).getColor() == 16)
                                 g.setColor(new Color(33, 208, 220));
+                            else if (mCentres.get(i).getColor() == 17)
+                                g.setColor(new Color(210, 15, 220));
+                            else if (mCentres.get(i).getColor() == 18)
+                                g.setColor(new Color(124, 15, 249));
+                            else if (mCentres.get(i).getColor() == 19)
+                                g.setColor(new Color(15, 249, 171));
+                            else if (mCentres.get(i).getColor() == 20)
+                                g.setColor(new Color(171, 249, 15));
 
                             if(mCentres.get(i).getX()>490){
                                 mCentres.get(i).setX(mCentres.get(i).getX()-20);
@@ -159,17 +175,25 @@ public class GUIClass extends JFrame {
                             else if (centres.get(i).getColor() == 10)
                                 g.setColor(new Color(30, 143, 151));
                             else if (centres.get(i).getColor() == 11)
-                                g.setColor(new Color(0, 255, 34));
+                                g.setColor(new Color(111, 114, 105));
                             else if (centres.get(i).getColor() == 12)
-                                g.setColor(new Color(239, 0, 255));
+                                g.setColor(new Color(29, 65, 25));
                             else if (centres.get(i).getColor() == 13)
                                 g.setColor(new Color(39, 27, 117));
                             else if (centres.get(i).getColor() == 14)
                                 g.setColor(new Color(255, 191, 65));
                             else if (centres.get(i).getColor() == 15)
-                                g.setColor(new Color(176, 100, 0));
+                                g.setColor(new Color(0, 0, 0));
                             else if (centres.get(i).getColor() == 16)
                                 g.setColor(new Color(33, 208, 220));
+                            else if (centres.get(i).getColor() == 17)
+                                g.setColor(new Color(210, 15, 220));
+                            else if (centres.get(i).getColor() == 18)
+                                g.setColor(new Color(124, 15, 249));
+                            else if (centres.get(i).getColor() == 19)
+                                g.setColor(new Color(15, 249, 171));
+                            else if (centres.get(i).getColor() == 20)
+                                g.setColor(new Color(171, 249, 15));
 
                             g.fillOval(centres.get(i).getX(), centres.get(i).getY(), pointWidth, pointHeight);
                         }
